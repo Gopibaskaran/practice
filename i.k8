@@ -9,11 +9,3 @@ spec:
       role: db
   policyTypes:
     - Ingress
-  ingress:
-    - from:
-        - podSelector:
-            matchLabels:
-              role: frontend
-      ports:
-        - protocol: TCP
-          port: 9000
