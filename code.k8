@@ -16,4 +16,4 @@ spec:
               role: frontend
       ports:
         - protocol: TCP
-          port: 9000
+          port: 8000
